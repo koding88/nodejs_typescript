@@ -1,0 +1,35 @@
+{
+  "name": "nodejs_typescript",
+  "version": "1.0.0",
+  "description": "An Express API Example project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koding88/nodejs_typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koding88/nodejs_typescript/issues"
+  },
+  "homepage": "https://github.com/koding88/nodejs_typescript#readme",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "prisma": "^6.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.10",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.7"
+  }
+}
